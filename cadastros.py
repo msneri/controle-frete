@@ -23,8 +23,8 @@ def cadastroTrans():
 
     resp = 'SIM'
     while resp == 'SIM':
-        transportadora.append(str(input('Digite o nome da transportadora: ')))
-        resp = str(input('Deseja continuar cadastrando? sim/não: ')).upper()
+            transportadora.append(str(input('Digite o nome da transportadora: ' )))
+            resp = str(input('Deseja continuar cadastrando? sim/não: ')).upper()
     retornar = str(input('Deseja retornar ao menu? SIM/NÃO: ')).upper()
 
 
@@ -52,8 +52,8 @@ def consulta():
 
     opcao_listagem = int(input('Digite a opção: '))
     if opcao_listagem == 1:
-        for c, t in enumerate(transportadora):
-            print(f'{c+1} - {t}')
+        for i, c in enumerate(transportadora):
+            print(f'{i+1} - {c}')
     elif opcao_listagem == 2:
         for i, c in enumerate(clientes):
             print(f'{i+1} - {c}')

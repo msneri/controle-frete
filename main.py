@@ -1,4 +1,4 @@
-# Primeira alteração com commit
+# PROGRAMA PARA CONTROLAR FRETES
 import cadastros
 
 print(f'{"BEM - VINDO AO LOGISTIC":^40}')
