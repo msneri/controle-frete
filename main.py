@@ -1,5 +1,6 @@
 # PROGRAMA PARA CONTROLAR FRETES
 import cadastros
+import consultas
 
 print(f'{"BEM - VINDO AO LOGISTIC":^40}')
 
